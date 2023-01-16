@@ -47,5 +47,23 @@ namespace EscolaApp
             DiarioWindow w = new DiarioWindow();
             w.ShowDialog();
         }
+
+        private void Professor_Area_Click(object sender, RoutedEventArgs e)
+        {
+            ProfessorWindow w = new ProfessorWindow();
+            w.ShowDialog();
+        }
+
+        private void Prof_Listar_Click(object sender, RoutedEventArgs e)
+        {
+            TurmasDoProfessorWindow w = new TurmasDoProfessorWindow();
+            w.ShowDialog();
+        }
+
+        private void Prof_Turma_Click(object sender, RoutedEventArgs e)
+        {
+            ProfessorParaTurmaWindow w = new ProfessorParaTurmaWindow();
+            w.ShowDialog();
+        }
     }
 }

@@ -67,5 +67,13 @@ namespace EscolaApp
 
             }
         }
+
+        public static void CadastrarProfessor(Professor p, Turma t)
+        {
+            Abrir();
+            var turma = turmas.Find(x => x.Id == t.Id);
+            turma.IdProfessor = p.Id;
+            Salvar();
+        }
     }
 }

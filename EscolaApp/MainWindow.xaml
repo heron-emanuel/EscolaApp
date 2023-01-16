@@ -5,11 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="300">
+        Title="Escola" Height="200" Width="300">
     <Grid>
-        <Button Content="Cadastro de Turmas" HorizontalAlignment="Left" Margin="16,10,0,0" VerticalAlignment="Top" Click="Turma_Click"/>
-        <Button Content="Cadastro de Alunos" HorizontalAlignment="Left" Margin="16,41,0,0" VerticalAlignment="Top" Click="Aluno_Click"/>
-        <Button Content="Matricula" HorizontalAlignment="Left" Margin="16,72,0,0" VerticalAlignment="Top" Click="Matricula_Click"/>
-        <Button Content="Diario" HorizontalAlignment="Left" Margin="16,105,0,0" VerticalAlignment="Top" Click="Diario_Click"/>
+        <Menu>
+            <MenuItem Header="Cadastros">
+                <MenuItem Header="Turmas..." Click="Turma_Click" />
+                <MenuItem Header="Alunos..." Click="Aluno_Click" />
+            </MenuItem>
+            <MenuItem Header="Operações">
+                <MenuItem Header="Matricular Aluno..." Click="Matricula_Click" />
+                <MenuItem Header="Diário da Turma..." Click="Diario_Click" />
+            </MenuItem>
+            <MenuItem Header="Professores">
+                <MenuItem Header="Área dos professores" Click="Professor_Area_Click" />
+                <MenuItem Header="Listar turmas por professor" Click="Prof_Listar_Click" />
+                <MenuItem Header="Designar professor para turma" Click="Prof_Turma_Click" />
+            </MenuItem>
+        </Menu>
+        <Button Visibility="Hidden" Click="Turma_Click" Content="Cadastrar Turma" HorizontalAlignment="Left" Margin="23,19,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Aluno_Click" Content="Cadastrar Aluno" HorizontalAlignment="Left" Margin="23,44,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Matricula_Click" Content="Matricular Aluno" HorizontalAlignment="Left" Margin="23,69,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Diario_Click" Content="Diário da Turma" HorizontalAlignment="Left" Margin="23,94,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

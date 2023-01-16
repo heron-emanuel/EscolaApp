@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\20211011110010\Downloads\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\
+C:\Users\20211011110010\Source\Repos\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\
 EscolaApp
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\20211011110010\Downloads\EscolaApp\EscolaApp\App.xaml
-51111230788
+C:\Users\20211011110010\Source\Repos\EscolaApp\EscolaApp\App.xaml
+8107431483
 
-13318024001
+18-510257255
 193-1891726104
-AlunoWindow.xaml;DiarioWindow.xaml;MainWindow.xaml;MatriculaWindow.xaml;TurmaWindow.xaml;
+AlunoWindow.xaml;DiarioWindow.xaml;MainWindow.xaml;MatriculaWindow.xaml;ProfessorParaTurmaWindow.xaml;ProfessorWindow.xaml;TurmasDoProfessorWindow.xaml;TurmaWindow.xaml;
 
-True
+False
 
