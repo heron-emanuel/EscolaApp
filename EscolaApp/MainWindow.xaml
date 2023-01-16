@@ -9,5 +9,7 @@
     <Grid>
         <Button Content="Cadastro de Turmas" HorizontalAlignment="Left" Margin="16,10,0,0" VerticalAlignment="Top" Click="Turma_Click"/>
         <Button Content="Cadastro de Alunos" HorizontalAlignment="Left" Margin="16,41,0,0" VerticalAlignment="Top" Click="Aluno_Click"/>
+        <Button Content="Matricula" HorizontalAlignment="Left" Margin="16,72,0,0" VerticalAlignment="Top" Click="Matricula_Click"/>
+        <Button Content="Diario" HorizontalAlignment="Left" Margin="16,105,0,0" VerticalAlignment="Top" Click="Diario_Click"/>
     </Grid>
 </Window>

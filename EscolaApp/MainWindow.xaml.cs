@@ -35,5 +35,17 @@ namespace EscolaApp
             AlunoWindow w = new AlunoWindow();
             w.ShowDialog();
         }
+
+        private void Matricula_Click(object sender, RoutedEventArgs e)
+        {
+            MatriculaWindow w = new MatriculaWindow();
+            w.ShowDialog();
+        }
+
+        private void Diario_Click(object sender, RoutedEventArgs e)
+        {
+            DiarioWindow w = new DiarioWindow();
+            w.ShowDialog();
+        }
     }
 }

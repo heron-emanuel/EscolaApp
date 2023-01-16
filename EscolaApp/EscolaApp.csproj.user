@@ -10,6 +10,12 @@
     <Compile Update="AlunoWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="DiarioWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MatriculaWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="TurmaWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -18,7 +24,13 @@
     <Page Update="AlunoWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="DiarioWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MatriculaWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="TurmaWindow.xaml">

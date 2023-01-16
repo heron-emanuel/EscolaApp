@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfTurma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<ArrayOfTurma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Turma>
+    <Id>1</Id>
+    <Curso>infoweb</Curso>
+    <Descricao>turma de infoweb</Descricao>
+    <AnoLetivo>2022</AnoLetivo>
+  </Turma>
+</ArrayOfTurma>

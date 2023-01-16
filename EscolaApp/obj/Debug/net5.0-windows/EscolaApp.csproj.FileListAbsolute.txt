@@ -54,3 +54,7 @@ C:\Users\20211011110010\Downloads\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\E
 C:\Users\20211011110010\Downloads\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\ref\EscolaApp.dll
 C:\Users\20211011110010\Downloads\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\EscolaApp.pdb
 C:\Users\20211011110010\Downloads\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\EscolaApp.genruntimeconfig.cache
+C:\Users\20211011110010\Downloads\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\DiarioWindow.g.cs
+C:\Users\20211011110010\Downloads\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\MatriculaWindow.g.cs
+C:\Users\20211011110010\Downloads\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\DiarioWindow.baml
+C:\Users\20211011110010\Downloads\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\MatriculaWindow.baml
