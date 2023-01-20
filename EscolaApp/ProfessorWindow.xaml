@@ -19,6 +19,6 @@
         <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="52,53,0,0" VerticalAlignment="Top"/>
         <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="89,53,0,0" VerticalAlignment="Top"/>
         <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="144,53,0,0" VerticalAlignment="Top"/>
-        <ListBox Name="listProfessores" Margin="10,80,15,15" />
+        <ListBox Name="listProfessores" Margin="10,80,15,15" SelectionChanged="listProfessores_SelectionChanged" />
     </Grid>
 </Window>

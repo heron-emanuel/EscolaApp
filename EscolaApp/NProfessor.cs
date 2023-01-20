@@ -25,10 +25,17 @@ namespace EscolaApp
             return profs;
         }
 
+        public static Professor Listar(int id)
+        {
+            foreach (Professor obj in profs)
+                if (obj.Id == id) return obj;
+            return null;
+        }
+
         public static void Excluir(Professor p)
         {
             Abrir();
-            profs.Remove(p);
+            profs.Remove(Listar(p.Id));
             Salvar();
         }
 

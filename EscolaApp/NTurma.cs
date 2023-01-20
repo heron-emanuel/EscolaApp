@@ -28,6 +28,14 @@ namespace EscolaApp
                 if (obj.Id == id) return obj;
             return null;
         }
+        public static List<Turma> Listar(Professor p)
+        {
+            Abrir();
+            List<Turma> turmasDoProfessor = new List<Turma>();
+            foreach (Turma obj in turmas)
+                if (obj.IdProfessor == p.Id) turmasDoProfessor.Add(obj);
+            return turmasDoProfessor;
+        }
         public static void Atualizar(Turma t)
         { 
             Abrir();
@@ -35,6 +43,7 @@ namespace EscolaApp
             obj.Curso = t.Curso;
             obj.Descricao = t.Descricao;
             obj.AnoLetivo = t.AnoLetivo;
+            obj.IdProfessor = t.IdProfessor;
             Salvar();
         }
         public static void Excluir(Turma t)
@@ -70,10 +79,8 @@ namespace EscolaApp
 
         public static void CadastrarProfessor(Professor p, Turma t)
         {
-            Abrir();
-            var turma = turmas.Find(x => x.Id == t.Id);
-            turma.IdProfessor = p.Id;
-            Salvar();
+            t.IdProfessor = p.Id;
+            Atualizar(t);
         }
     }
 }

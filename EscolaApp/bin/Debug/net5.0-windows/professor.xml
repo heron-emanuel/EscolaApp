@@ -1,15 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfProfessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Professor>
-    <Id>1</Id>
-    <Nome>Joao</Nome>
-    <Matricula>20211011110002</Matricula>
-    <Area>20211011110002</Area>
-  </Professor>
-  <Professor>
-    <Id>1</Id>
-    <Nome>teste</Nome>
-    <Matricula>2021</Matricula>
-    <Area>2021</Area>
-  </Professor>
-</ArrayOfProfessor>
+<ArrayOfProfessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />

@@ -60,11 +60,27 @@ namespace EscolaApp
 
         private void ExcluirClick(object sender, RoutedEventArgs e)
         {
-            int id = int.Parse(txtId.Text);
-            Professor p = NProfessor.Listar().Find(x => x.Id == id);
+            if (listProfessores.SelectedItem != null)
+            {
+                NProfessor.Excluir((Professor)listProfessores.SelectedItem);
+                ListarClick(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("Selecione o professor que você quer excluir");
+            }
+        }
 
-            NProfessor.Excluir(p);
-            ListarClick(sender, e);
+        private void listProfessores_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (listProfessores.SelectedItem != null)
+            {
+                Professor p = (Professor)listProfessores.SelectedItem;
+                txtId.Text = p.Id.ToString();
+                txtNome.Text = p.Nome;
+                txtMatricula.Text = p.Matricula;
+                txtArea.Text = p.Area;
+            }
         }
     }
 }

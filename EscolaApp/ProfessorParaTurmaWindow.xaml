@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="ProfessorParaTurmaWindow" Height="450" Width="800">
+        Title="Atribuir professor a turma" Height="270" Width="400">
     <Grid>
-        
+        <ListBox Name="listProfessores" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" Width="370" Height="90"/>
+        <ListBox Name="listTurmas" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,110,0,0" Width="370" Height="90"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top"/>
+        <Button Click="AtribuirClick" Content="Atribuir" HorizontalAlignment="Left" Margin="47,205,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

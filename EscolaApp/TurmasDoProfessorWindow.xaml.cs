@@ -22,6 +22,19 @@ namespace EscolaApp
         public TurmasDoProfessorWindow()
         {
             InitializeComponent();
+            listProfessores.ItemsSource = NProfessor.Listar();
+        }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+            if (listProfessores.SelectedItem != null)
+            {
+                Professor p = (Professor)listProfessores.SelectedItem;
+                listTurmas.ItemsSource = null;
+                listTurmas.ItemsSource = NTurma.Listar(p);
+            }
+            else
+                MessageBox.Show("É preciso selecionar um professor");
         }
     }
 }
